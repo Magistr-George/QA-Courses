@@ -1,0 +1,2 @@
+Verification and validation (also abbreviated as V&V) are independent procedures that are used together for checking that a product, service, or system meets requirements 
+and specifications and that it fulfills its intended purpose.
