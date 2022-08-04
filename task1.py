@@ -23,19 +23,17 @@ except FileNotFoundError:
     print('File does not exsist')
     
 word_count = defaultdict(int)
-#symbols_list = [",", ".", "(", ")"]
+symbols_list = [",", ".", "(", ")",';', ':', '!', "*"]
     
 for word in words_list:
-# =============================================================================
-#     for symbol in range(len(symbols_list)):
-#          word.translate({ord(symbols_list[symbol]): None})
-#          word.replace(symbols_list[symbol], "")
-#          print(word, symbols_list[symbol])
-# =============================================================================
+    word = word.lower()    
+    for symbol in range(len(symbols_list)):
+        word = word.replace(symbols_list[symbol], "")
 
     word_count[word] = 1
     word_count[word] += 1
     #print(word, word_count[word])
+    
 try:    
     with open('result.txt','w') as out:
         out.write("Data of start " + str(datetime) + " " + "Amount of running programm " + str(amount_of_running) + "\n")

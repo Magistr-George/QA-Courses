@@ -1,11 +1,11 @@
-Data of start 2022-08-02 21:12:10.364874 Amount of running programm 5
-Verification:2
+Data of start 2022-08-04 14:56:55.390457 Amount of running programm 20
+verification:2
 and:2
 validation:2
-(also:2
+also:2
 abbreviated:2
 as:2
-V&V):2
+v&v:2
 are:2
 independent:2
 procedures:2
@@ -15,8 +15,8 @@ together:2
 for:2
 checking:2
 a:2
-product,:2
-service,:2
+product:2
+service:2
 or:2
 system:2
 meets:2
@@ -26,4 +26,4 @@ it:2
 fulfills:2
 its:2
 intended:2
-purpose.:2
+purpose:2
