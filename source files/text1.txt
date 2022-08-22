@@ -1,0 +1,21 @@
+Dynamic: This term means that testing always implies executing the program on selected inputs. ​
+
+​
+
+the input value alone is not always sufficient to specify a test, since a complex, nondeterministic system might react to the same input with different behaviors, depending on the system state.​
+
+​
+
+Finite: Even in simple programs, so many test cases are theoretically possible that exhaustive testing could require months or years to execute​
+
+​
+
+testing is conducted on a subset of all possible tests, which is determined by risk and prioritization criteria​
+
+​
+
+Selected: test techniques differ in how the test set is selected​ x
+
+                 different selection criteria may yield vastly different degrees of effectiveness.​
+
+Identifying the most suitable selection criterion under given conditions is a complex problem and require risk analysis techniques and software engineering expertise. it it it it 
