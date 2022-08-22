@@ -18,7 +18,7 @@ except FileNotFoundError:
 try:
     f = open('text.txt')
     words_list = f.read().split()
-    f.close()  
+ 
 except FileNotFoundError:
     print('File does not exsist')
     
@@ -29,10 +29,11 @@ for word in words_list:
     word = word.lower()    
     for symbol in range(len(symbols_list)):
         word = word.replace(symbols_list[symbol], "")
-
-    word_count[word] = 1
+    
+    if word_count[word] == 0: word_count[word] = 1
+    
     word_count[word] += 1
-    #print(word, word_count[word])
+    print(word, word_count[word])
     
 try:    
     with open('result.txt','w') as out:
